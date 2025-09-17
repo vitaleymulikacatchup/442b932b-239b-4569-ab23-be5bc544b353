@@ -6,6 +6,7 @@ import SocialsAbout from '@/components/sections/layouts/about/SocialsAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterBase from '@/components/footer/FooterBase';
+import { Shield } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -46,7 +47,7 @@ export default function Home() {
           title="Tokenomics Overview"
           description="Understanding the key stats of BlackSpaceship Coin"
           kpiItems={[
-            { value: "100M", description: "Total Supply", longDescription: "Total amount of coins to be released.", icon: "TokenIcon" }
+            { value: "100M", description: "Total Supply", longDescription: "Total amount of coins to be released.", icon: Shield }
           ]} />
       </div>
 
