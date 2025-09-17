@@ -24,7 +24,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <SplitHero
-          title="Launch BlackSpaceship Coin"
+          title="Launch BlackRock Coin"
           subtitle="Join the cosmic movement"
           primaryButtonText="Get Started"
           secondaryButtonText="Learn More"
@@ -33,8 +33,11 @@ export default function Home() {
 
       <div id="about" data-section="about" className="scroll-mt-24">
         <SocialsAbout
-          title="About BlackSpaceship Coin"
-          descriptions={["Innovative crypto for the adventurous spirit.", "Join a community of forward-thinkers."]}
+          title="About BlackRock Coin"
+          descriptions={[
+            "Innovative crypto for the adventurous spirit.",
+            "Join a community of forward-thinkers."
+          ]}
         />
       </div>
 
@@ -45,7 +48,7 @@ export default function Home() {
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <BigNumberTokenomics
           title="Tokenomics Overview"
-          description="Understanding the key stats of BlackSpaceship Coin"
+          description="Understanding the key stats of BlackRock Coin"
           kpiItems={[
             { value: "100M", description: "Total Supply", longDescription: "Total amount of coins to be released.", icon: Shield }
           ]} />
@@ -57,7 +60,7 @@ export default function Home() {
           logoWidth={150}
           logoHeight={50}
           columns={[{ title: "Company", items: [{ label: "About Us", onClick: () => {} }, { label: "Contact", onClick: () => {} }] }, { title: "Products", items: [{ label: "Features", onClick: () => {} }, { label: "Pricing", onClick: () => {} }] }, { title: "Support", items: [{ label: "Help Center", onClick: () => {} }, { label: "Privacy Policy", onClick: () => {} }] }]}
-          copyrightText="© 2023 BlackSpaceship Coin. All rights reserved."
+          copyrightText="© 2023 BlackRock Coin. All rights reserved."
           onPrivacyClick={() => {}}
         />
       </div>

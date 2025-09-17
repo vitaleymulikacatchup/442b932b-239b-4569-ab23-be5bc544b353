@@ -9,8 +9,8 @@ const interTight = Inter_Tight({
 });
 
 export const metadata: Metadata = {
-  title: "BlackSpaceship Coin",
-  description: "Launch a sleek single-page site that introduces BlackSpaceship Coin, explains its value and tokenomics, and guides visitors toward education and basic buying steps."
+  title: "BlackRock Coin",
+  description: "Launch a sleek single-page site that introduces BlackRock Coin, explains its value and tokenomics, and guides visitors toward education and basic buying steps."
 };
 
 export default function RootLayout({
@@ -20,9 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${interTight.variable} antialiased`}>
-        {children}
-      </body>
+      <body className={`${interTight.variable} antialiased`}> {
+        children
+      } </body>
     </html>
   );
 }
