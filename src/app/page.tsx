@@ -13,7 +13,8 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           logoSrc="/images/logo.svg"
-          logoAlt="BlackSpaceship Coin"
+          logoWidth={150}
+          logoHeight={50}
           navItems={[{ name: '#hero', id: 'hero' }, { name: '#about', id: 'about' }, { name: '#how-to-buy', id: 'how-to-buy' }, { name: '#tokenomics', id: 'tokenomics' }, { name: '#footer', id: 'footer' }]}
           buttonText="Buy Now"
           className="bg-transparent"
@@ -44,7 +45,9 @@ export default function Home() {
         <BigNumberTokenomics
           title="Tokenomics Overview"
           description="Understanding the key stats of BlackSpaceship Coin"
-          kpiItems={[{ value: "100M", description: "Total Supply", longDescription: "Total amount of coins to be released.", icon: LucideIcon }]} />
+          kpiItems={[
+            { value: "100M", description: "Total Supply", longDescription: "Total amount of coins to be released.", icon: "TokenIcon" }
+          ]} />
       </div>
 
       <div id="footer" data-section="footer" className="scroll-mt-24">
